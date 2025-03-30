@@ -1,0 +1,43 @@
+numpy is a package that defines multydimensional array:
+1. It also has packages for working in domainons of leniar algebra Fourier Transformation and Matrix
+
+==> ARRAY\
+1. definded as a collection of items thata are stored at contiguous memeory location 
+2.It is a contaioner which can hold a fix number of items and of same type
+3. A combination of array saves a lot fo time an array can reduce a lot of time
+
+eg of array : import numpy'
+              arr = numpy.array([1,2,3,4,5])
+
+4. numpy uses much less memory to store data 
+5. numpy makes it much more easy to preform mathematical operatons on it
+6. used for creation of n-dimensional array
+7. finding element in nympy array is easy
+
+
+Arrays V/S list
+1. list cannot directly handel mathematical operation while array can do 
+2. an array consumes less memeory then list
+3. Using an arrya is faster then list
+4. A list can store different data types while an array can store only one type of data
+5. a list is easire to modefy as it store each elements individualy it is easire to add or delete an element form a list as compared to array 
+6. In list one can have nested data with different types while you cannot do the same in array
+
+
+CREATING AN ARRAY : 
+ARRAY = numpy.array([list])
+# numpy.arange() function creates an array of evenly spaced values within a given interval. It is similar to Python’s built-in range() function but returns a NumPy array instead of a list.
+# numpy.arange(start, stop, step)
+arr = np.arange(1,10,0.5)
+print(arr)            \-> o.5   hear represent that the array will be of type float
+
+# Combining a conditional filtering :
+filtered = arr[arr%2==0]
+print(filtered)
+
+
+ATTRIBUTES OF THE ARRAY IS GIVEN BY : 
+ndarray.shape retuns the tuple conating the size of the array
+ndarray.ndim return the dimension of the array
+ndarray.size returns the total number of the elements of the array
+ndaray.dtype returns the data type of the array
