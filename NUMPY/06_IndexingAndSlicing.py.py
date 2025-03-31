@@ -3,6 +3,12 @@ import numpy as np
 arr = np.array([10,20,30,40,50])
 print(arr[3]) # will print the item at the index 3
 print(arr[1:4]) # will print the items from index 1 to 4
+print(arr[::-1])# wil reverse the array;
+print(arr[:4])
+
+'''FANCY INDEXING : selecting multiple element at a time'''
+print(arr," 0th,3rd and 1st element of the arr is : ",arr[[0,3,1]])
+
 
 print("Mylti-Dimensional Array : Slicing")
 arr2 = np.array([[1,2,3],[4,5,6],[7,8,9]])
