@@ -24,4 +24,4 @@ print(np.isinf(arr))
 +ve infinity and -ve infinity saperately
 '''
 cleand_arr = np.nan_to_num(arr,posinf=1000,neginf=-100)
-print(clean d_arr)
+print(cleand_arr)
