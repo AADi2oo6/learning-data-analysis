@@ -1,0 +1,24 @@
+1. Understand the data set 
+        i> columnn and rows?
+                .shape : (rows,columns) and .columns : for columns name
+        ii>what type of Data?
+        iii> Missng Data
+                info() : will help us to find all this
+2. Identify the problem
+        i> select specific columns
+        ii> filter rows
+        iii> combine multiple conditions 
+
+                1. selct specific columns with "Square Bracet"
+                        i>Single column will return a Series for data from a columns
+                                column = df["column Name"] #helps in accessing a column
+                        ii> dataframe multiple columns of the data
+                                subset = df["column1","column2"] #access multiple column
+
+                2. filter row using "boolean Condition "
+                        i>Based on single condition 
+                                filtered_row = df[df["salary"]>5000] will return column with values of salary grater than 5000
+                        ii>Based on Multiple condition
+                                filtered_Row = df[(df["salary"]>40000) & (df["salary"] < 80000>)]
+
+3. Plan next staps

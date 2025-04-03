@@ -64,3 +64,16 @@ print("-------------------------------------")
 #creating an indentity matrix: 
 iMatrix = np.eye(4)
 print(iMatrix)
+
+
+'''RANDOM ARRAYS'''
+from numpy import random
+r = random.randint(100,size = (4,4))# will create an random array of size 4
+print(r)
+r = random.rand(4,4)# will create an random array of size 4 with foat value
+print(r)
+
+x = random.choice([3, 5, 7, 9], size=(3, 5))
+print(x)
+r = random.randint(100000, 900001, size=(4, 4))  # Random integers between 100000 and 900000
+print(r)
