@@ -77,3 +77,11 @@ x = random.choice([3, 5, 7, 9], size=(3, 5))
 print(x)
 r = random.randint(100000, 900001, size=(4, 4))  # Random integers between 100000 and 900000
 print(r)
+
+
+# Create an array with random unique values :
+RandomUniqueValueArray = random.choice(100,size = 10,replace=False)
+print(RandomUniqueValueArray)
+RandomUniqueValueArray = random.choice(np.arange(100,999),size = 10,replace=False)
+print(RandomUniqueValueArray)
+
