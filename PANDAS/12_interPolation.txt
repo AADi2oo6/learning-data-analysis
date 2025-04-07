@@ -1,0 +1,8 @@
+Interpolation is the processes of inserting estimated values in place of missing values
+eg: 1,2,3,,5 : so hear missing value can be 4 
+why use Interpolation;
+    1. to preserve intigrity
+    2. Smooth trend
+    3. avoid data loss
+
+interpolate() method is used in this case
