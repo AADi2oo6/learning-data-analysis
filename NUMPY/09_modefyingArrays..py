@@ -5,7 +5,7 @@
 
 import numpy as np
 arr=np.array([1,2,3,4,5])
-print(f'The origina array is : {arr}')
+print(f'The oreginal array is : {arr}')
 
 
 #Inserting an element to the array: Syntax -> np.insert(array,index,value,axes = none )

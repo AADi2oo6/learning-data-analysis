@@ -60,6 +60,8 @@ print("-------------------------------------")
 filtered = arr[arr%2==0]
 print(filtered)
 
+# Note: filtered = arr%2 ==0 : will return an arry with true and false value
+
 print("-------------------------------------")
 #creating an indentity matrix: 
 iMatrix = np.eye(4)
@@ -82,6 +84,6 @@ print(r)
 # Create an array with random unique values :
 RandomUniqueValueArray = random.choice(100,size = 10,replace=False)
 print(RandomUniqueValueArray)
-RandomUniqueValueArray = random.choice(np.arange(100,999),size = 10,replace=False)
+RandomUniqueValueArray = random.choice(np.arange(100,999),size = (10,10),replace=False)
 print(RandomUniqueValueArray)
 

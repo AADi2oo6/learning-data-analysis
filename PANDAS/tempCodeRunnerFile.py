@@ -1,8 +1,7 @@
-import pandas as pd
+import numpy as np
 from numpy import random
-data = pd.read_excel("BData.xlsx")
-df = pd.DataFrame(data)
-print(df)
-df.insert(0,"Id",random.choice([23,42,54,23,23],size = 3))
-print(df)
-df.to_excel("BData.xlsx", index = False)
+r  = random.choice(16,size = (4,4))
+print(r)
+
+index  = np.where(r == 0)
+print(index[0])
