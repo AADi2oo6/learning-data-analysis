@@ -10,7 +10,7 @@
             "port": 33060,
             "driver": "MySQL",
             "name": "tutorial",
-            "database": "sqltuts",
+            "database": "startersql",
             "username": "root",
             "password": "202510",
             "connectionTimeout": 30
