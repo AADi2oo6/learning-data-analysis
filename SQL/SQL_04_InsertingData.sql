@@ -13,5 +13,3 @@
 -- ("Anisha Varma", "anish123@gmai.com","femail","2005-07-23");
  
 DESCRIBE USERS;
-
-
